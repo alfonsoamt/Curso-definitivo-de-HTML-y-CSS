@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+    background-image: url(./pics/agua.jpg);
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-size: 1.6rem;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+
+}
+header {
+    height: 10vh;
+    background: rgb(143,255,0);
+background: linear-gradient(90deg, rgba(143,255,0,0.5) 0%, rgba(0,241,255,1) 100%);
+}
+main {
+    height: 80vh;
+}
+footer {
+    height: 10vh;
+    background: rgb(143,255,0);
+background: linear-gradient(90deg, rgba(143,255,0,0.5) 0%, rgba(0,241,255,1) 100%);
+}
+figure {
+    margin: 1rem;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 1.5rem;
+    
+}
+aside {
+    display: inline-block;
+    height: 80vh;
+    width: 20vw;
+    background: rgb(143,255,0);
+background: linear-gradient(90deg, rgba(143,255,0,0.5) 0%, rgba(255,255,255,0.2) 100%);
+  }
+section {
+    display: inline-block;
+    height: 80vh;
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(0,241,255,0.5) 100%);
+
+}
+aside div{
+    height: 15vh;
+    margin: 3vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+    
+}
+footer .Social {
+    display: inline-block;
+    color: white;
+    font-size: 175%;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    font-weight: bold;
+  }
+  
+footer .Info {
+    display: inline-block;
+    color: white;
+    font-size: 175%;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    font-weight: bold;
+
+  }
+
+.ima {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 0.5em;
+}
+.imalogo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 0.25em;
+    left: 0.5rem;
+}
+header figure p{
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+}
+
+.sidetext {
+    color: rgb(143,255,0);
+    font-size: 120%;
+    position: relative;
+    left: 12.5rem;
+    bottom: 7.5rem;
+    font-weight: bold;
+
+}
+.paradise img{
+    height: 550px;
+    width: 900px;
+    position: relative;
+    left: 15rem;
+}
